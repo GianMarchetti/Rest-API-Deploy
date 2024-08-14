@@ -1,0 +1,42 @@
+[
+    {
+        "id": "MFM1Y5T1",
+        "title": "Spider-man",
+        "year": 2019,
+        "director":"Bobby Pearson",
+        "duration": 120,
+        "poster":"https://postercity.com.ar/wp-content/uploads/2022/03/Spiderman-No-way-home-60x90-1.jpg",
+        "genre": ["action"],
+        "rating": 8.5
+    },
+    {
+        "id": "oJrpmtur",
+        "title": "The Batman",
+        "year": 2021,
+        "director":"Effie Fisher",
+        "duration": 120,
+        "poster":"https://images-cdn.ubuy.ae/634d0cc50dae823b9a54f97f-the-batman-movie-poster-i-am-the.jpg",
+        "genre": ["action"],
+        "rating": 8.5
+    },
+    {
+        "id": "MmsetKIG",
+        "title": "Mad Max: Fury Road",
+        "year": 2015,
+        "director":"Isabella Tate",
+        "duration": 120,
+        "poster":"https://www.imdb.com/title/tt1392190/mediaviewer/rm1959417856",
+        "genre": ["action"],
+        "rating": 8.5
+    },
+    {
+        "id": "aHXmONm3",
+        "title": "Us",
+        "year": 2019,
+        "director":"Chad Flores",
+        "duration": 120,
+        "poster":"https://www.imdb.com/title/tt6857112/mediaviewer/rm1959417856",
+        "genre": ["terror"],
+        "rating": 8.5
+    }
+]

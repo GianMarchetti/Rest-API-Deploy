@@ -1,0 +1,30 @@
+##Traer todas las peliculas
+GET http://localhost:1234/movies
+
+## Traer solo 1 pelicula
+GET http://localhost:1234/movies/MFM1Y5T1
+
+## Traer peliculas de genero Terror
+GET http://localhost:1234/movies?genre=action
+
+## Crear pelicula
+POST http://localhost:1234/movies
+Content-Type: application/json
+
+{
+    "title": "La casa de papel",
+    "genre": ["action", "terror"],
+    "director": "Willie Quinn",
+    "duration": 120,
+    "poster": "http://liseot.tf/hilcivmuk",
+    "year": 2017
+}
+
+## Actualizar un dato de una peli
+PATCH http://localhost:1234/movies/aHXmONm3
+Content-Type: application/json
+
+{
+    "title": "La casa de papel 60",
+    "id": 2
+}
